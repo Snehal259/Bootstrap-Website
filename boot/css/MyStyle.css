@@ -1,0 +1,86 @@
+.top_bar{
+    background:#F26522;
+}
+.Social_Icon{
+    margin-right: 5px;
+}
+.mylogo{
+    margin-top: 12px;
+}
+.my_menu{
+    margin-top: 25px;
+}
+.my_menu .navbar-default{
+    border: none;
+    background: none;
+}
+ .my_menu .navbar-default .navbar-nav .active a,.my_menu .navbar-default .navbar-nav .active a:hover {background: #F26522;color: #fff;}
+
+.my_menu .navbar-default .navbar-nav li a:hover{background: #F26522;color: #fff;}
+
+.Languages{
+    margin-top: 25px;
+}
+.our_Courses{
+    background: radial-gradient(circle,#009cde,#003087);
+    color: #fff;
+}
+
+.our_Courses .top_margin{
+margin-top: 20px;
+}
+.footer ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.footer ul li a{
+   color: #fff;
+   font-size: 15px;
+} 
+.footer{
+    color: #fff;
+}
+.footer p{color: #fff;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.footer{
+    background: #333333;
+    padding: 20px 0px;
+}
+
+
+div.mycard .thumbnail:hover {
+    background: #F26522;
+    color: #fff;
+}
+
+
+.abt{
+    margin-top: 5px;
+}
+
+.myimg{
+    margin-top: 89px;
+    
+}
+
+div.myservice .thumbnail:hover {
+    background: #F26522;
+    color: #fff;
+}
+
+@media (max-width: 768px){
+    .our_Courses .mymargin [class*= "col-"]  {
+        margin-bottom:22px;
+    }
+}
+
+
+@media (max-width: 1200px){
+    .my_menu .pull-right{float: none !important}  
+}
+
+
+
